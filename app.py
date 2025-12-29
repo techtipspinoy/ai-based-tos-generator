@@ -282,7 +282,7 @@ st.markdown(
 # Sidebar for metadata
 with st.sidebar:
     st.header("School Information")
-    school = st.text_input("School Name", "Tiring  National High School")
+    school = st.text_input("School Name", "George Town National High School")
     teacher = st.text_input("Prepared by (Teacher)", "Juan Dela Cruz")
     date = st.date_input("Date", format="YYYY-MM-DD")
 
@@ -405,4 +405,5 @@ st.markdown("---")
 st.caption(
     "💡 Tip: For best results, use official MELC codes from [DepEd MELC Portal](https://commons.deped.gov.ph/melc). "
     "This tool does not store your data — all processing happens in your browser/session."
+
 )
